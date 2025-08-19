@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/index.css">
     <title>Pagina web</title>
 </head>
 <body>
-    <!-- Aca se puede comentar -->
-    <!--    
-        prueba de segunda semana!!!
+    <!--    prueba de segunda semana!!!
         <ul>
             <li><a href="https://empleo.chaco.gob.ar">Empleo Chaco</a></li>
             <li><a href="https://www.google.com">Google</a></li>
@@ -19,9 +18,9 @@
         <p>Esta es mi primera web</p>
     -->
     <header>
-        <nav style="height: 200px; width: 1300px; background-color: lightblue; display: flex;">
-            <img src="img/logo.png" alt="Imagen de Prueba" style="height: 100px; width: 170px;">
-            <ul style="margin-left: 950px;">
+        <nav class="nav1">
+            <img src="static/img/logo.png" alt="#" id="img1">
+            <ul class="ul1">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="nosotros.html">Acerca de nosotros</a></li>
                 <li><a href="formulario.html">Contacto</a></li>
@@ -29,8 +28,8 @@
         </nav>
     </header>
     <main>
-        <section style="height: 700px; width: 1300px; background-color: cadetblue; display: flex; margin-top: 20px;">
-            <article style="flex: 2; padding: 20px;">
+        <section id="section1">
+            <article class="article1">
                 <h1>Cursos de Informatorio por etapas</h1>
                 <article>
                     <h2>Etapa 1: HTML, CSS y GITHUB</h2>
@@ -51,7 +50,7 @@
                     <p>texto de relleno</p>
                 </article>
             </article>
-            <aside style="flex: 1; background-color: orange; padding: 20px;">
+            <aside id="aside1">
                 <h2>Recursos adicionales</h2>
                 <ul>
                     <li><a href="#">Enlaces útiles</a></li>
@@ -61,12 +60,12 @@
             </aside>
         </section>
 
-        <div style="height: 200px; width: 1300px; background-color: yellow;">
+        <div class="div1">
             <h1>Integrantes del Informatorio</h1>
             <p>texto de relleno</p>
         </div>
     </main>
-    <footer style="height: 200px; width: 1300px; background-color: grey;">
+    <footer id="footer1">
         <h4>Datos del Informatorio</h4>
         <p>texto de relleno</p>
     </footer>

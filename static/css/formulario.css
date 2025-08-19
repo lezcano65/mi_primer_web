@@ -1,0 +1,25 @@
+nav{
+    height: 200px;
+    width: 1300px;
+    background-color: lightblue;
+    display: flex;
+}
+img {
+    height: 100px;
+    width: 170px;
+}
+ul {
+    padding-left: 970px;
+}
+div {
+    height: 500px;
+    width: 1300px;
+    background-color:  beige; 
+    margin-top: 20px;
+}
+footer {
+    height: 200px;
+    width: 1300px;
+    background-color: grey;
+    margin-top: 20px;
+}

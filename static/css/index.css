@@ -1,0 +1,40 @@
+.nav1 {
+    height: 200px; 
+    width: 1300px; 
+    background-color: lightblue; 
+    display: flex;
+}
+.ul1 {
+    margin-left: 950px;
+}
+.article1 {
+    flex: 2; 
+    padding: 20px;
+}
+.div1 {
+    height: 200px; 
+    width: 1300px; 
+    background-color: yellow;
+}
+
+#footer1 {
+    height: 200px; 
+    width: 1300px; 
+    background-color: grey;
+}
+#img1 {
+    height: 100px; 
+    width: 150px;
+}
+#section1 {
+    height: 700px; 
+    width: 1300px; 
+    background-color: cadetblue; 
+    display: flex; 
+    margin-top: 20px;
+}
+#aside1 {
+    flex: 1; 
+    background-color: orange; 
+    padding: 20px;
+}
